@@ -1,7 +1,7 @@
 # 01 — Inmuebles (Del País y del Exterior)
 
 **Punto del pedido**: #1
-**Estado FY2025**: ⬜ Pendiente
+**Estado FY2025**: ✅ Resuelto — No posee inmuebles. Sin operaciones en 2025.
 
 ---
 

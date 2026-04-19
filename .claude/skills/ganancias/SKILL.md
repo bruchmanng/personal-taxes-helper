@@ -5,7 +5,7 @@ description: >
   Invocar cuando el usuario quiera trabajar en la presentación de ganancias, recopilar información
   para el estudio contable, o consultar el proceso. Contiene fases, checklists, formatos requeridos
   y lecciones aprendidas.
-disable-model-invocation: true
+disable-model-invocation: false
 ---
 
 # Playbook — Presentación Anual de Ganancias
