@@ -46,7 +46,14 @@ Adjunto el reporte para impuestos del Galicia en Excel (ene–dic 2025). Incluye
 
 También tiene un FCI residual (FIMA Premium Clase A) con $0,74 — se ve en el reporte.
 
-<!-- TODO: Santander -->
+**Cuenta #2: Banco Santander**
+
+Adjunto tenencias al 31/12/2025 en Excel. Prácticamente sin uso:
+
+-> **Caja de Ahorro en Pesos** (Nro 374-365189/2)
+   Saldo 31/12: ARS $9,71
+
+-> **Cuenta Corriente y Caja de Ahorro en Dólares**: saldo $0
 <!-- TODO: Brubank -->
 <!-- TODO: Mercado Pago -->
 <!-- TODO: Ontop -->

@@ -42,8 +42,9 @@ Este fue uno de los puntos más trabajados:
 - [x] Cuenta CERA: ya no existe (saldo 0 desde FY2024, desapareció del homebanking)
 - El Excel incluye: saldos, movimientos de cuentas, operaciones de cambio, pagos de tarjetas (Mastercard + Visa), FCI residual ($0,74)
 
-### ⬜ Banco Santander
-- [ ] Tenencias al 31/12/2025 (pesos + dólares)
+### ✅ Banco Santander
+- [x] Tenencias al 31/12/2025 — Excel descargado y en `adjuntos-para-contadora/`
+- CA Pesos: $9,71 | CC Pesos: $0 | Dólares: $0 | Sin inversiones ni préstamos
 
 ### ⬜ Brubank
 - [ ] Tenencias al 31/12/2025

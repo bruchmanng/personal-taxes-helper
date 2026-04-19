@@ -143,6 +143,12 @@ Estos son los puntos estándar que pide el estudio. Validar cada año si cambiar
 - [ ] Tenencias al 31/12
 - [ ] Resúmenes de cuenta (poco uso, pero Josela los pide)
 
+**Cómo obtener tenencias al 31/12 (homebanking web):**
+1. En la barra de navegación, ir a **"Resumen impositivo"**
+2. Lleva a https://www2.personas.santander.com.ar/obp-webapp/angular/#!/tenencias
+3. En **"Consultas y Operaciones"** elegir **"Tenencias al 31/12"**
+4. Descarga un archivo `Tenencias_santander.xls` con saldos al 31/12 de todas las cuentas + inversiones + préstamos
+
 ### Brubank (AR)
 - [ ] Tenencias al 31/12
 
