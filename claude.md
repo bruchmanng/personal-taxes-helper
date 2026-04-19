@@ -21,14 +21,32 @@ Este repositorio contiene herramientas y documentación para asistir a Guillermo
 - **Contacto principal**: Josela Morillo (contadora del estudio)
 - **Email Josela**: jmorillo@estudiodelcampillo.com.ar
 - **Email Juan Pablo**: jpdelcampillo@estudiodelcampillo.com.ar
+- **Email Cecilia Ferraris**: cferraris@estudiodelcampillo.com.ar (suele ir en CC)
 - **Mecanismo de comunicación principal**: Email
 
 > Nota: Este es el mismo estudio que lleva la contabilidad de la sociedad de Filadd en Argentina. 
+
+## Cuentas bancarias / financieras conocidas
+
+| Cuenta | País | Notas |
+|--------|------|-------|
+| Banco Galicia (pesos + dólares + CERA blanqueo) | AR | Josela pide reporte en **Excel** siempre |
+| Banco Santander (pesos + dólares) | AR | Poco uso |
+| Brubank | AR | Josela la pidió en FY2024 |
+| Mercado Pago | AR | Josela pidió tenencias + rendimientos en FY2024 |
+| Bull Market / S&C Inversiones (comitente) | AR | Operaciones MEP |
+| Balanz (comitente) | AR | Usada para venta MEP en FY2024 |
+| Ontop (billetera virtual) | US | Blanqueada. Solo dan reportes en PDF |
+| JPMorgan (checking + savings) | US | Blanqueada |
+| Cuenta en Alemania (sin uso) | DE | Aparece en AFIP, nunca operada |
 
 ## Estructura de Carpetas
 
 ```
 /FY2024/          → Presentación del período fiscal 2024 (realizada en 2025). Referencia histórica.
+  - historial-presentacion-ganancias-2024.md  → Cronología completa del proceso
+  - cadena-emails-pedido-informacion-2024.md  → Emails ene–feb 2025 (pedido inicial + envío masivo)
+  - cadena-emails-info-ganancias-2024.md      → Emails abr–jun 2025 (docs adicionales + revisión)
 /FY2025/          → Presentación del período fiscal 2025 (a realizar en 2026). Trabajo en curso.
 /requirements/    → Carpeta por cada punto del pedido de información del estudio (21 puntos).
 ```
@@ -75,6 +93,7 @@ Este proyecto se gestiona como un vault de Obsidian. Al escribir o editar archiv
 - Usar `[[wikilinks]]` para referenciar otros archivos del vault (ej: `[[Pedido de Información Ganancias y Bs Personales 2025.pdf]]`)
 - Se pueden usar callouts de Obsidian (`> [!note]`, `> [!warning]`, etc.)
 - Las carpetas `.obsidian/` contienen configuración del vault y no deben modificarse
+- Al generar documentos, vincular fuentes con `[[wikilinks]]` (ej: citar de qué email o documento sale la información)
 
 ## Notas para Claude
 - El único usuario es Guillermo. Tutear y ser directo.
