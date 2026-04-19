@@ -1,7 +1,7 @@
 # 02 — Automotores, Naves, Aeronaves, etc.
 
 **Punto del pedido**: #2
-**Estado FY2025**: ⬜ Pendiente
+**Estado FY2025**: ✅ Completo
 
 ---
 

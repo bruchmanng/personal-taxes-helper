@@ -41,17 +41,19 @@ Se trabaja cada punto del pedido de forma individual. Para cada punto:
 3. **Recopilar documentos y datos** del año actual:
    - Pedir al usuario los docs que faltan
    - Guardar docs en `/requirements/{punto}/docs-FY{año}/`
+   - **Ir copiando cada documento a `/FY{año}/adjuntos-para-contadora/`** — esta carpeta acumula todos los archivos que van a ir en el ZIP final para Josela
 4. **Agregar al draft de email** (`/FY{año}/draft-email-info-ganancias.md`):
    - Ir construyendo el email acumulativo punto por punto
    - Usar el mismo formato/estilo que en años anteriores
-   - Marcar claramente qué documentos van adjuntos
+   - Marcar claramente qué documentos van adjuntos (deben coincidir con lo que hay en `adjuntos-para-contadora/`)
 
 ### Fase 3: Envío al estudio
 
 1. Revisar el draft completo con el usuario
-2. Listar todos los adjuntos que deben ir con el email
-3. El usuario envía el email a Josela (con CC a Juan Pablo y Cecilia)
-4. Guardar copia del email enviado en `/FY{año}/`
+2. Verificar que los adjuntos en `/FY{año}/adjuntos-para-contadora/` coincidan con lo mencionado en el email
+3. Zippear la carpeta `adjuntos-para-contadora/` para enviar
+4. El usuario envía el email a Josela (con CC a Juan Pablo y Cecilia) con el ZIP adjunto
+5. Guardar copia del email enviado en `/FY{año}/`
 
 ### Fase 4: Ida y vuelta con el estudio
 
@@ -110,8 +112,32 @@ Estos son los puntos estándar que pide el estudio. Validar cada año si cambiar
 ### Banco Galicia (AR)
 - [ ] Reporte para impuestos ene–dic **EN EXCEL** (obligatorio, no aceptan otro formato)
 - [ ] Si el homebanking falla: pedir a la asesora del banco
-- [ ] Saldo al 31/12 en pesos y dólares
+- [ ] Saldo al 31/12 en pesos y dólares → **viene incluido en el reporte Excel** (no hace falta buscarlo aparte)
 - [ ] Estado de cuenta CERA si aplica
+
+**Cómo bajar el reporte para impuestos (homebanking web):**
+1. Ir a **Perfil de usuario**: https://onlinebanking.bancogalicia.com.ar/perfil/ini
+2. Buscar el botón **"Reporte para impuestos"**
+3. Click en **"Solicitar Reporte"** (botón arriba a la derecha)
+4. Indicar rango de fechas: **01/01/{año} a 31/12/{año}**
+5. Aparece formulario "Solicitar reporte para declarar impuestos" con checkboxes:
+   - **Saldos totales**: tildar todo (Inversiones + Cuentas)
+   - **Movimientos**: tildar **"Todos"** (incluye Inversiones, Cuentas, Pagos de tarjetas de crédito, Operaciones en moneda extranjera)
+6. Confirmar solicitud. El reporte tarda un rato en generarse.
+7. Queda en el "Historial de solicitudes" con estado "Disponible" cuando está listo.
+8. Dice que puede tardar hasta 48hs, pero en la práctica tarda ~30 minutos.
+9. Llega una **notificación por email** cuando está listo.
+10. Para descargarlo: **Inversiones > Más Opciones > Reporte para Impuestos**, o directo en https://inversiones.bancogalicia.com.ar/reporteimpuestos/historialsolicitudes
+11. El archivo se llama `Reporte_Impuestos_{año}-01-01--{año}-12-31.xlsx`
+12. **El Excel ya trae los saldos al 31/12** de cada cuenta (pesos, dólares, CERA), además de movimientos, operaciones de cambio, pagos de tarjetas e inversiones (FCI). Es la fuente principal para todo lo de Galicia.
+
+**Truco alternativo — consultar saldo al 31/12 manualmente (por si se necesita antes de que llegue el Excel):**
+1. Ir a **Mis Cuentas**: https://cuentas.bancogalicia.com.ar/cuentas/mis-cuentas
+2. Entrar a la cuenta específica (ej: Caja de Ahorro en pesos, luego dólares, etc.)
+3. Filtrar movimientos históricos del **28/12 al 02/01**
+4. Hacer click en el **último movimiento del año**
+5. En el panel "Detalle" aparece el campo **"Saldo parcial"** — ese es el saldo de la cuenta al cierre de ese movimiento
+6. Si el último movimiento es del 30/12, verificar que no haya movimientos el 31/12. Si no los hay, ese saldo parcial = saldo al 31/12.
 
 ### Banco Santander (AR)
 - [ ] Tenencias al 31/12
