@@ -46,12 +46,8 @@ Este fue uno de los puntos más trabajados:
 - [x] Tenencias al 31/12/2025 — Excel descargado y en `adjuntos-para-contadora/`
 - CA Pesos: $9,71 | CC Pesos: $0 | Dólares: $0 | Sin inversiones ni préstamos
 
-### ⬜ Brubank
-- [ ] Tenencias al 31/12/2025
-
-### ⬜ Mercado Pago
-- [ ] Tenencias al 31/12/2025
-- [ ] Rendimientos del año
+> [!note] Decisión FY2025
+> **Brubank** y **Mercado Pago** NO se incluyen en la presentación FY2025 (decisión de Guillermo, 7-jun-2026). No mencionar a la contadora.
 
 ### ⬜ Ontop
 - [ ] Movimientos 2025 + saldo al 31/12/2025

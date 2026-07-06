@@ -114,6 +114,7 @@ Estos son los puntos estándar que pide el estudio. Validar cada año si cambiar
 - [ ] Si el homebanking falla: pedir a la asesora del banco
 - [ ] Saldo al 31/12 en pesos y dólares → **viene incluido en el reporte Excel** (no hace falta buscarlo aparte)
 - [ ] Estado de cuenta CERA si aplica
+- [ ] **Resúmenes de tarjetas de crédito** (VISA + Mastercard Black) con **cierre 12/{año} y vencimiento 01/{año+1}** — Josela los pide aparte del reporte Excel. Bajar el PDF de cada tarjeta desde el homebanking. **NO incluir la tarjeta de crédito de Brubank** (excluida por decisión de Guillermo, 5-jul-2026).
 
 **Cómo bajar el reporte para impuestos (homebanking web):**
 1. Ir a **Perfil de usuario**: https://onlinebanking.bancogalicia.com.ar/perfil/ini
@@ -151,6 +152,16 @@ Estos son los puntos estándar que pide el estudio. Validar cada año si cambiar
 
 ### Brubank (AR)
 - [ ] Tenencias al 31/12
+- [ ] **NO incluir la tarjeta de crédito de Brubank** (excluida por decisión de Guillermo, 5-jul-2026 — solo la cuenta)
+
+**Cómo obtener las tenencias al 31/12 (app):**
+Brubank NO tiene un "reporte para impuestos" listo como Galicia/Santander. El saldo al 31/12 se saca del estado de cuenta de diciembre:
+1. Abrir la app → **Mi Cuenta**
+2. **Ver mis datos** → **Estado de cuenta**
+3. Elegir **año {año} / mes diciembre**
+4. Llega un **PDF por email** con los movimientos de diciembre → el saldo final del mes = tenencia al 31/12
+5. Si hay plazo fijo / fondos / rendimientos en Brubank, verificar que también figuren (son tenencias).
+6. Alternativa (documento más formal): pedir por el **chat de Soporte** un "certificado de tenencias al 31/12/{año}".
 
 ### Mercado Pago (AR)
 - [ ] Tenencias al 31/12
@@ -175,6 +186,8 @@ Estos son los puntos estándar que pide el estudio. Validar cada año si cambiar
 ### JPMorgan (US)
 - [ ] Registro de movimientos del año
 - [ ] Tenencias al 31/12 (checking + savings)
+- [ ] **⚠️ NO reportar SMARTCLASS / BVI**: en los reportes de JPMorgan pueden aparecer mezcladas cuentas de **SMARTCLASS DEVELOPER (BVI)** que **NO son de Guillermo** — descartarlas, quedarse SOLO con las cuentas a nombre de **GUILLERMO BRUCHMANN**. Nunca mencionarlas a la contadora.
+- [ ] Si hay una cuenta de **inversión** (ej. ...4009 en FY2025 con acciones TESLA + money market): el reporte de **transacciones NO trae el valor al 31/12** → pedir aparte el **estado de posición / holdings statement al 31/12** para valuar la tenencia.
 
 ### Cuenta en Alemania (DE)
 - [ ] Preparar respuesta: cuenta abierta en 2023, nunca operada, saldo cero
@@ -236,6 +249,13 @@ Basado en el email exitoso de FY2024 (10-feb-2025), el formato es:
 8. **Monotributo Tech**: puede haber dudas sobre cobros en dólares
 9. **Operaciones crypto**: crypto → cueva → dólar billete quedó como "ahorros en mano" en la DDJJ
 10. **Venta MEP**: fue en Balanz (no Bull Market). Tener claros los movimientos entre cuentas.
+
+### De FY2025
+1. **Resúmenes de tarjetas de crédito**: Josela los pide aparte del reporte Excel de Galicia — específicamente los que **cierran en 12/{año} y vencen en 01/{año+1}**. Son VISA + Mastercard Black del Galicia (PDF del homebanking). La tarjeta de crédito de Brubank se excluye por decisión de Guillermo.
+2. **Brubank y Mercado Pago**: en FY2025 se evaluó excluirlas, pero Josela las pidió explícitamente y se decidió incluir ambas cuentas. Conclusión: **incluirlas siempre** salvo indicación contraria puntual.
+3. **Email de seguimiento de Josela**: si pasa tiempo sin enviar la info, Josela manda un email-recordatorio con un checklist de lo que falta, con mini-instrucciones de cómo bajar cada cosa (útil como guía).
+4. **⚠️ SMARTCLASS / BVI — NUNCA reportar**: en reportes de JPMorgan aparecieron mezcladas cuentas de **SMARTCLASS DEVELOPER (BVI)** que NO son de Guillermo. Filtrar y quedarse solo con las cuentas a nombre de **GUILLERMO BRUCHMANN**. No mencionarlas a la contadora bajo ningún concepto.
+5. **JPMorgan cambió**: en FY2025 ya no es solo checking+savings. Hay una cuenta de **inversión** (...4009) con **acciones de TESLA** y money market. El reporte de transacciones no valúa la tenencia al 31/12 → hace falta el **estado de posición** aparte.
 
 ---
 

@@ -40,6 +40,9 @@ Este repositorio contiene herramientas y documentación para asistir a Guillermo
 | JPMorgan (checking + savings) | US | Blanqueada |
 | Cuenta en Alemania (sin uso) | DE | Aparece en AFIP, nunca operada |
 
+> [!warning] **NO reportar SMARTCLASS / BVI**
+> Cualquier cuenta, transacción o tenencia asociada a **SMARTCLASS DEVELOPER** o a una cuenta de **BVI (Islas Vírgenes Británicas)** **NO es de Guillermo** y **NUNCA debe reportarse ni mencionarse a la contadora** en la presentación de Ganancias. Al procesar reportes (ej: JPMorgan), quedarse SOLO con las cuentas a nombre de **GUILLERMO BRUCHMANN** y descartar el resto. (Aclarado 5-jul-2026.)
+
 ## Estructura de Carpetas
 
 ```
